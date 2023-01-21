@@ -7,7 +7,8 @@ This code cand be classified into two modules. The Fisrt module is crawling whic
 
 ## Install
 You can clone this repository or download it.
-/code 
+'''
+$ git clone 
 
 
 ## Software Requirements 
