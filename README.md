@@ -7,19 +7,19 @@ This code cand be classified into two modules. The Fisrt module is crawling whic
 
 ## Install
 You can clone or download this repository in your folder.
-'''
+
   $ git clone https://github.com/bwh1270/allrecipes-scraper.git {your_folder_name}
-'''
+
 
 And install the requirement packages.
-'''
+
   $ pip install -r requirements.txt
-'''
+
 
 Execute the main.py file. It may take long time depending on your internet speed. In my case, it took 4-5 hours.
-'''
+
   $ python3 main.py
-'''
+
 ※ Be careful not to lose your internet connection.
 
 
