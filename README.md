@@ -7,9 +7,9 @@ This code cand be classified into two modules. The Fisrt module is crawling whic
 
 ## Install
 You can clone or download this repository in your folder.
-
+```
   $ git clone https://github.com/bwh1270/allrecipes-scraper.git {your_folder_name}
-
+```
 
 And install the requirement packages.
 
