@@ -9,8 +9,8 @@ import pandas as pd
 from tqdm import tqdm
 from recipe_scrapers import scrape_html
 from utils import load_url_list
-from extract_category_url import get_url_categories
-from extract_recipe_url import get_title_recipe, get_other_recipe
+from crawl_category_url import get_url_categories
+from crawl_recipe_url import get_title_recipe, get_other_recipe
 from scrape import recipe_scraping
 
 
@@ -31,13 +31,13 @@ def main():
             temp = "https://www.allrecipes.com/recipes" + str(temp.group() + "/")
             first_url_list.append(temp)
 
-    """
+    
     # save the first url list
     with open("../data/first_url_list", 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(first_url_list)
         print("first_url_list saved successfully")
-    """
+    
     
     category_list = []
     old_cnt = 0
