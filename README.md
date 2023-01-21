@@ -5,7 +5,7 @@ The recipe information will help the food domain, like food computing.
 This code cand be classified into two modules. The Fisrt module is crawling which is about finding URLs on the web. The second module is scraping which is about extracting the data of recipe from one or more websites. This code is tested in Linux 16.04 LTS, Window10, and Window11. But, it will work in other environments. 
 
 
-Just follow the install part!
+Just follow the installation part!
 
 
 
@@ -30,6 +30,7 @@ $ python3 main.py
 
 
 
+
 ## Modules
 There are important three modules in src folder.
 + crawl_category_url.py
@@ -37,14 +38,14 @@ There are important three modules in src folder.
 + scrape.py
 
 
-First one, the function to crawling the category urls from top category to the lowest categories. In the image below, Category url means the things inside the blue box.
 
+First one, the function to crawling the category urls from top category to the lowest categories. In the image below, Category url means the things inside the blue box.
 
 ![image](https://user-images.githubusercontent.com/98958137/213866967-a042f967-68ab-4175-a25f-43ffbe1fb064.png)
 
 
 
-Second one, the function to crawling the recipe urls in each category urls.
+Second, the function to crawling the recipe urls in each category urls.
 
 
-And last, the function to scrape the recipe information in each recipe urls using the package of "/hhursev/recipe-scrapers"
+Last, the function to scrape the recipe information in each recipe urls using the package of "/hhursev/recipe-scrapers"
