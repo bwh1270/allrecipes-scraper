@@ -1,10 +1,19 @@
 # allrecipes-scraper
 
+
 ## Introduction
-The short answer is that web scraping is about extracting the data from one or more websites. While crawling is about finding or discovering URLs or links on the web.
+The recipe information will help the food domain, like food computing.
+This code cand be classified into two modules. The Fisrt module is crawling which is about finding URLs on the web. The second module is scraping which is about extracting the data of recipe from one or more websites.
+
+### Install
+You can clone this repository or download it.
 
 
 ## Software Requirements 
+Test system version : Linux 16.04 LTS, Window10, and Window11
+
+
+
 
 
 ## Modules
