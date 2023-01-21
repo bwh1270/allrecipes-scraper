@@ -40,7 +40,10 @@ There are important three modules in src folder.
 First one, the function to crawling the category urls from top category to the lowest categories. 
 
 
-In the image below, Category url means the things inside the blue box. ![image](https://user-images.githubusercontent.com/98958137/213866967-a042f967-68ab-4175-a25f-43ffbe1fb064.png)
+In the image below, Category url means the things inside the blue box. 
+
+
+![image](https://user-images.githubusercontent.com/98958137/213866967-a042f967-68ab-4175-a25f-43ffbe1fb064.png)
 
 
 Second, the function to crawling the recipe urls in each category urls.
