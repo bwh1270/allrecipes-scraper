@@ -7,6 +7,11 @@ Just follow the installation part!
 
 
 
+
+
+
+
+
 ## Installation
 You can clone or download this repository in your folder.
 ```
@@ -23,18 +28,25 @@ $ pip install -r requirements.txt
 Execute the main.py file. It may take long time depending on your internet speed. In my case, it took 4-5 hours.
 
 
-### Linux
+##### Linux
 ```
 $ python3 main.py
 ```
 ※ Be careful not to lose your internet connection.
 
 
-### Window
+##### Window
 ```
 > python main.py
 ```
 ※ Be careful not to lose your internet connection.
+
+
+
+
+
+
+
 
 
 
