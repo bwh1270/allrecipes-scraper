@@ -6,12 +6,6 @@ This code cand be classified into two modules. The Fisrt module is crawling whic
 Just follow the installation part!
 
 
-
-
-
-
-
-
 ## Installation
 You can clone or download this repository in your folder.
 ```
@@ -40,12 +34,6 @@ $ python3 main.py
 > python main.py
 ```
 ※ Be careful not to lose your internet connection.
-
-
-
-
-
-
 
 
 
