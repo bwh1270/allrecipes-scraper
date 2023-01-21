@@ -1,7 +1,4 @@
 # allrecipes-scraper
-[![Total Downloads](https://poser.pugx.org/buonzz/laravel-4-freegeoip/downloads.svg)](https://packagist.org/packages/buonzz/laravel-4-freegeoip)
-[![License](https://poser.pugx.org/buonzz/laravel-4-freegeoip/license.svg)](https://packagist.org/packages/buonzz/laravel-4-freegeoip)
-
 The recipe information will help the food domain, like food computing.
 This code cand be classified into two modules. The Fisrt module is crawling which is about finding URLs on the web. The second module is scraping which is about extracting the data of recipe from one or more websites. This code is tested in Linux 16.04 LTS, Window10, and Window11. But, it will work in other environments. 
 
@@ -50,3 +47,7 @@ Second, the function to crawling the recipe urls in each category urls.
 
 
 Last, the function to scrape the recipe information in each recipe urls using the package of "/hhursev/recipe-scrapers"
+
+
+---
+This project is licensed under the terms of the MIT license.
