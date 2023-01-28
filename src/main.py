@@ -70,6 +70,9 @@ def main():
     
     df_allrecipes = pd.concat([df_title_recipe, df_other_recipe])
     
+    # remove the overlapped recipes
+    df_allrecipes.drop_duplicates()
+    
     # save the allrecipes to csv file
     df_allrecipes.to_csv("../data/Allrecipes.csv", header=True, index=False)
 
